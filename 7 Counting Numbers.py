@@ -8,3 +8,4 @@ def count(n):
         n -= 1
         
 count(int(input()))
+#Python’s re module lets you split by any pattern, not just one character{lis.re.split()}. (Split wherever there’s a comma or a space — or even several of them.)
