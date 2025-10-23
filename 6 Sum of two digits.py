@@ -9,5 +9,6 @@ def sum(n):
             first_digit //= 10 # // 10 repeatedly removes the last digit until only the first digit remains.
             
         print(' Sum = ',first_digit+last_digit)
+        n -= 1
 
 sum(int(input()))
