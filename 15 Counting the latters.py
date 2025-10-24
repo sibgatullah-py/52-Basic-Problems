@@ -5,6 +5,7 @@ def count(n):
         count=[0]*26 # Creating an empty list with 0,1,2 indexes representing the latter ascii values 
         for i in S:
             if 'a' <= i <= 'z':
+                # The ord function helps us to get the ascii value of the character . 
                 i = ord(i) - ord('a') # Finding which index matches with the latter we got from looping over the string a = 97 . 97-97 = 0 so it means we got a value for 0 indexed item
                 count[i]+=1 # when we make sure which index box we got and making it's value 1 plus from 0
         for i in range(26):
